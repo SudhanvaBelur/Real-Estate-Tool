@@ -1,0 +1,12 @@
+python-dotenv
+langchain-classic
+langchain
+langchain-chroma
+langchain-groq
+langchain-huggingface
+langchain-text-splitters
+langchain-community
+chromadb
+requests
+beautifulsoup4
+streamlit
