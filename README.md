@@ -3,7 +3,7 @@
 Small RAG demo that scrapes URLs, indexes content into a Chroma vector store and answers questions using a GROQ LLM.
 
 Paste your GROQ API KEY in .env before live demo
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)]((https://realestatetool-using-groq.streamlit.app/))
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://realestatetool-using-groq.streamlit.app/)
 
 **Features**
 
