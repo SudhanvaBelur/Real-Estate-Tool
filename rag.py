@@ -72,7 +72,7 @@ def process_urls(urls):   # create a function to process the input URLs and stor
     yield("Done adding Documents to vector database")
 
 def generate_answer(query):  # create a function to generate an answer for the input query using the data stored in the vector database
-    if not vector_store:
+    if not vector_store:    # to check if the vector store is initialized or not. If the vector store is not initialized, it raises a RuntimeError with the message "Vector database is not initialized".
         raise RuntimeError("Vector database is not initialized ")
 
     chain = RetrievalQA.from_llm(llm=llm, retriever=vector_store.as_retriever())  # Create a RetrievalQAWithSourcesChain by combining the question-answering chain with 
